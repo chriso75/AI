@@ -1,5 +1,8 @@
+#!/bin/bash -x
+set -e
+
+#By naming this git-m and putting it in your PATH, git will be able to run it when you type "lgit"
+
 git add -A;
-pause
 git commit -a -m "lazygit";
-pause
 git push -u origin master;
